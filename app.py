@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 from io import BytesIO
-from google import genai
+from google import genai  # This matches the 'google-genai' library
 from google.genai import types
 
 # --- 1. SETUP & API CONFIG ---
